@@ -1,0 +1,56 @@
+.admission-process {
+  max-width: 80vw;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: .7rem 0rem 10px rgba(0, 0, 0, 0.1);
+}
+
+.admission-process h2 {
+  margin-top: 0;
+}
+
+.admission-process p {
+  margin-bottom: 20px;
+}
+
+.admission-process ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admission-process li {
+  margin-bottom: 10px;
+}
+
+.admission-process li i {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #666;
+}
+
+.admission-process li span {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.admission-process li span:last-child {
+  font-weight: bold;
+}
+
+.btn-download {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  height: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 12rem;
+}
+
+.btn-download:hover {
+  background-color: #3e8e41;
+}

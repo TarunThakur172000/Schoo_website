@@ -1,0 +1,97 @@
+.about-us {
+  max-width: 80rem;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: 2px solid gray;
+  padding: 1.7rem;
+  border-top: 0;
+  border-radius: 8px;
+  box-shadow: -.5rem .5rem #80808073;
+
+}
+
+.ab-st{
+  margin: auto;
+  width: 53rem;
+  border: 2px solid #8b8181a3;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: .4rem .4rem #c49a9ab5;
+  margin-top: 2rem;
+}
+.about-us h2 {
+  font-size: 36px; /* large heading font size */
+  font-weight: bold; /* bold font weight */
+  margin-bottom: 20px; /* add some space between the heading and the text */
+}
+
+.about-us p {
+  font-size: 18px; /* medium font size */
+  line-height: 1.5; /* add some line height to make the text more readable */
+  margin-bottom: 20px; /* add some space between the paragraphs */
+}
+
+.about-us img {
+  width: 100%; /* make the image full width */
+  height: auto; /* keep the aspect ratio */
+  margin: 20px 0; /* add some space around the image */
+  border-radius: 10px; /* add a slight border radius to the image */
+}
+
+.about-us .team-member {
+  display: inline-block; /* make the team members display inline */
+  margin: 20px; /* add some space between the team members */
+  text-align: center; /* center the text */
+}
+
+.about-us .team-member img {
+  width: 100px; /* make the team member image a fixed width */
+  height: 100px; /* make the team member image a fixed height */
+  border-radius: 50%; /* make the team member image a circle */
+  margin-bottom: 10px; /* add some space between the image and the text */
+}
+
+.about-us .team-member h3 {
+  font-size: 18px; /* medium font size */
+  font-weight: bold; /* bold font weight */
+  margin-bottom: 5px; /* add some space between the heading and the text */
+}
+
+.about-us .team-member p {
+  font-size: 14px; /* small font size */
+  line-height: 1.5; /* add some line height to make the text more readable */
+  margin-bottom: 10px; /* add some space between the paragraphs */
+}
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .about-us .container {
+      padding: 0 1rem;
+    }
+    .about-us .title {
+      font-size: 2rem;
+    }
+    .about-us .description {
+      font-size: 1.2rem;
+    }
+    .about-us .image {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-us .container {
+      padding: 0 0.5rem;
+    }
+    .about-us .title {
+      font-size: 1.5rem;
+    }
+    .about-us .description {
+      font-size: 1rem;
+    }
+    .about-us .image {
+      height: 150px;
+    }
+  }
